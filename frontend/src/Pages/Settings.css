@@ -1,0 +1,92 @@
+.settings-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #121212;
+  }
+  
+  .settings-form {
+    background-color: #1f1f1f;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    gap: 15px;
+  }
+  
+  .settings-form h2 {
+    color: #fff;
+    text-align: center;
+  }
+  
+  .settings-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+  }
+  
+  .settings-form button {
+    padding: 10px;
+    background: #4a00e0;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .settings-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #f8f8f8;
+  }
+  
+  .settings-form {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .settings-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .settings-form label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .settings-form input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .settings-form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .settings-form .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
