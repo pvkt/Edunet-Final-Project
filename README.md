@@ -11,7 +11,7 @@ i have done the modifications in this project
 # Changes to be done to run the code
 
 after downloading the code
-# git clone
+> git clone <ur>
 
 go to each directory (/admin, /frontend, /backend) and install node modules
 > cd /admin       
@@ -19,16 +19,13 @@ go to each directory (/admin, /frontend, /backend) and install node modules
 and also run npm install in /frontend & /backend directories
 
 
-in the backend folder .env file
-change the mongodb url
+in the backend folder .env file --> change the mongodb url
 
 backend command
 # nodemon index.js
 
 frontend command & admin command
 # npm start
-
-
 
 
 
