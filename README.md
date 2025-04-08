@@ -21,7 +21,7 @@ and also run npm install in /frontend & /backend directories
 
 in the backend folder .env file --> change the mongodb url
 
-#backend command
+# backend command
 > nodemon index.js
 
 # frontend command & admin command
