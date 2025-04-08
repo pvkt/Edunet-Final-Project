@@ -4,49 +4,7 @@ i have done the modifications in this project
 
 =========================================================
 # Changes done on the project
-
-features adding to the existing code because as a penetrator tester (ethical hacker) , i am trying to make site secure.
-
-# changes done on the signup page  (added gender, phonenumber, confirm password, address, pincode)
-1. name 
-   a. min characters are 3
-   b. max charcters are 15
-   c. user name can have spaces   (example name : sam tej)
-   d. unique username
-2. gender     (added gender feature)
-3. phone number  
-	a. only 10 digits allowed
-	b. phone number should be unique
-4. email
-	a. emial validation (it should have string&num@string.string)
-	b. email should be unique
-5. password changes:
-   a. lenght should be minimum 8 chars & max 15 chars
-   b. password validation ( confirm password)
-   c. password is encrypted and stored in the database
-   d. input should only allow A-z a-z @ # _  charcters
-6. Adderess   
-	a. user can enter upto 50 charactres
-	b. Allowed charcters   A-z a-z , - /
-7. pincode     (only 6 numbers allowed)
-8. added trim function (remove spaces from front & back)
-( done form validation on both frontend & backend  ) ⇒ the frontend validations can be bypassed using the burpsuite tool. so we are performing validations on both frontend and backend
-
-
-reasons :
-• if there is no maximum charcaters = there is a possiblity of buffer flow attacks (send large amount of data and the backend may crash , or add some paylods in buffer and send to target we can exploit)
-• only limited characters =  becausing by using some symbols we can perform different attacks (ex: sql injections, cross-site-scripting(xss) attacks,...) so we used limited symbols
-
-
-#changes done on the login page
-1. shows error message when we enter wrong details (Invalid Credentials)
-2. added forgot password feature
-
-
-# added profile
-1. my profile  (update the profile)
-2. my orders (just show order price , date & order id)
-3. settting (change password)  
+![image](https://github.com/user-attachments/assets/f9d050e9-9479-47e6-b353-43b4208d6728)
 
 
 =====================================================
