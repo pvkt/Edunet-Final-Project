@@ -21,15 +21,15 @@ and also run npm install in /frontend & /backend directories
 
 in the backend folder .env file --> change the mongodb url
 
-backend command
-# nodemon index.js
+#backend command
+> nodemon index.js
 
-frontend command & admin command
-# npm start
+# frontend command & admin command
+> npm start
 
 
 
-==================================
+=================================================
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
